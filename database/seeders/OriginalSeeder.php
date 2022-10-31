@@ -15,7 +15,7 @@ class OriginalSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('Originals')->insert([
+        DB::table('originals')->insert([
             ['text'=>'Blue', 'language_id'=>1],
             ['text'=>'Green', 'language_id'=>1],
         ]);

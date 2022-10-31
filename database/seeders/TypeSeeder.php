@@ -15,7 +15,7 @@ class TypeSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('Types')->insert([
+        DB::table('types')->insert([
             ['text'=>'Movies'],
             ['text'=>'Products'],
             ['text'=>'Menu Items'],

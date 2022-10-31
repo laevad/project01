@@ -15,7 +15,7 @@ class TranslationSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('Translations')->insert([
+        DB::table('translations')->insert([
             ['text'=>'Asul', 'language_id'=>2],
             ['text'=>'Berde', 'language_id'=>2],
         ]);

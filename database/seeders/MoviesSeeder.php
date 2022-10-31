@@ -15,7 +15,7 @@ class MoviesSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('Movies')->insert([
+        DB::table('movies')->insert([
             ['text_content_id'=>1],
         ]);
     }
